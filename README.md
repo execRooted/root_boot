@@ -13,7 +13,7 @@ A CLI tool that allows you to restart your PC and then auto-boot into a selected
 ```bash
 cargo install root_boot
 ```
-> **Note:** You need **Rust: 1.70+**, if you install it using the **install.sh** prompt, it *automaticly installs all of the dependencies.*
+**Note: You need Rust 1.70+**
 
 ---
 
@@ -66,7 +66,7 @@ The program will:
 
 - Devices are displayed as: `Model Size (Path)`
 - Enter the number corresponding to your desired boot device
-- Enter `0` to exit without rebooting
+- Enter `0` to exit the program
 
 ## Requirements
 
