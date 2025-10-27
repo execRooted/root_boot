@@ -9,6 +9,16 @@ A CLI tool that allows you to restart your PC and then auto-boot into a selected
 
 ### Automated Installation
 
+### crates.io
+```bash
+cargo install root_boot
+```
+> **Note:** You need **Rust: 1.70+**, if you install it using the **install.sh** prompt, it *automaticly installs all of the dependencies.*
+
+---
+
+### GitHub
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/execRooted/root_boot.git
@@ -22,7 +32,6 @@ sudo ./install.sh
 
 The installer will automatically:
 - Install Rust if not present
-- Build root_boot with optimizations
 - Install it system-wide to `/usr/local/bin/root_boot`
 
 
@@ -63,11 +72,8 @@ The program will:
 
 - **Linux**: Root privileges (automatically requested)
 - **Windows**: Administrator privileges (automatically requested)
-- **Rust**: 1.70+ (automatically installed by installer.sh, please verify if cargo will be used)
+- **Electricity**: *...well you kinda need that*
 
-## Security Note
-
-This program requires elevated privileges to modify boot settings and reboot the system. It will automatically request these privileges when needed.
 
 ---
 
