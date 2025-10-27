@@ -1,0 +1,18 @@
+[package]
+name = "root_boot"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "root_boot"
+path = "src/main.rs"
+
+[[bin]]
+name = "rb"
+path = "src/main.rs"
+
+[dependencies]
+colored = "2.0"
+dialoguer = "0.10"
+libc = "0.2"
+
