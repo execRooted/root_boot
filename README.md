@@ -50,8 +50,6 @@ sudo ./uninstall.sh
 # Run root_boot (will automatically request sudo if needed)
 root_boot
 
-# Or use the short alias
-rb
 ```
 
 The program will:
@@ -78,3 +76,4 @@ The program will:
 ---
 
 ***Made by execRooted***
+

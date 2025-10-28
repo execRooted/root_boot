@@ -246,10 +246,9 @@ fn main() {
                 println!(
                     "{}",
                     format!(
-                        "{} {} {} {} {} {}",
+                        "{} {} {} {} {}",
                         "Usage:".bright_white().bold(),
                         "root_boot".cyan().bold(),
-                        "or rb".cyan().bold(),
                         "[-v|--version]".yellow().bold(),
                         " -> ".blue().bold(),
                         "shows version".white()
@@ -260,7 +259,7 @@ fn main() {
                     "{}",
                     format!(
                         "       {} {} {}",
-                        "root_boot or rb".cyan().bold(),
+                        "root_boot".cyan().bold(),
                         " -> ".blue().bold(),
                         "runs the program".white()
                     )
@@ -315,3 +314,4 @@ fn main() {
         }
     }
 }
+
